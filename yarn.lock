@@ -1471,15 +1471,6 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@craco/craco@^5.7.0":
-  version "5.7.0"
-  resolved "https://registry.yarnpkg.com/@craco/craco/-/craco-5.7.0.tgz#ad6a240e0f85ac948f2935581da12d4223d66366"
-  integrity sha512-HpThSg+JZ8FuXtaRuNxLe/RH4TqRe7f6bZfB8tO5ukDthMrf8sKUNOkSS9vnsRbycVEAAuaOamXw+T6LPmqlIg==
-  dependencies:
-    cross-spawn "^7.0.0"
-    lodash "^4.17.15"
-    webpack-merge "^4.2.2"
-
 "@csstools/convert-colors@^1.4.0":
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
@@ -1700,24 +1691,6 @@
     "@babel/runtime" "^7.11.2"
     "@lingui/conf" "3.0.0-18"
     mkdirp "^1.0.4"
-
-"@lingui/babel-plugin-transform-js@2.9.2":
-  version "2.9.2"
-  resolved "https://registry.yarnpkg.com/@lingui/babel-plugin-transform-js/-/babel-plugin-transform-js-2.9.2.tgz#2c27e21e386ff785f2585549d6c8279a8df35dc8"
-  integrity sha512-yWoyhOfjRa9744TbVb/WN1OWxZYFLuXcWH5aVCu/sZ2b1YpsGCtfhplc5lRVWN8QcsfpjYmFiPqzU6swE5OFdQ==
-
-"@lingui/babel-plugin-transform-react@2.9.2":
-  version "2.9.2"
-  resolved "https://registry.yarnpkg.com/@lingui/babel-plugin-transform-react/-/babel-plugin-transform-react-2.9.2.tgz#6503de26a2852d3074d0df6bc8acbc9599407fcf"
-  integrity sha512-bxvrepiS6J9vZqRtpRiAgBIASQscjvu7aFmPqH4Y6001TDXrYuyhhNRt1BI3k2E6C2SckHh5vRtSpsqpjEiY3A==
-
-"@lingui/babel-preset-react@^2.9.2":
-  version "2.9.2"
-  resolved "https://registry.yarnpkg.com/@lingui/babel-preset-react/-/babel-preset-react-2.9.2.tgz#26bf88619b62383caee1210b8cf86965a3a7c33e"
-  integrity sha512-M+nfK/83+FnLEr63bBox5DKsSYgwPPmhfiLJAbc2BZBlmF1Nfqv/dHL+d2ynyEKNKCSVts476eDeiOFwv2MTNw==
-  dependencies:
-    "@lingui/babel-plugin-transform-js" "2.9.2"
-    "@lingui/babel-plugin-transform-react" "2.9.2"
 
 "@lingui/cli@^3.0.0-18":
   version "3.0.0-18"
@@ -3909,15 +3882,6 @@ cross-spawn@^6.0.0, cross-spawn@^6.0.5:
     semver "^5.5.0"
     shebang-command "^1.2.0"
     which "^1.2.9"
-
-cross-spawn@^7.0.0:
-  version "7.0.3"
-  resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-7.0.3.tgz#f73a85b9d5d41d045551c177e2882d4ac85728a6"
-  integrity sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==
-  dependencies:
-    path-key "^3.1.0"
-    shebang-command "^2.0.0"
-    which "^2.0.1"
 
 crypto-browserify@^3.11.0:
   version "3.12.0"
@@ -11497,13 +11461,6 @@ webpack-manifest-plugin@2.2.0:
     lodash ">=3.5 <5"
     object.entries "^1.1.0"
     tapable "^1.0.0"
-
-webpack-merge@^4.2.2:
-  version "4.2.2"
-  resolved "https://registry.yarnpkg.com/webpack-merge/-/webpack-merge-4.2.2.tgz#a27c52ea783d1398afd2087f547d7b9d2f43634d"
-  integrity sha512-TUE1UGoTX2Cd42j3krGYqObZbOD+xF7u28WB7tfUordytSjbWTIjK/8V0amkBfTYN4/pB/GIDlJZZ657BGG19g==
-  dependencies:
-    lodash "^4.17.15"
 
 webpack-sources@^1.1.0, webpack-sources@^1.4.0, webpack-sources@^1.4.1, webpack-sources@^1.4.3:
   version "1.4.3"
