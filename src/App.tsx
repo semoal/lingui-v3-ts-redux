@@ -1,14 +1,21 @@
 import React from 'react';
 import logo from './logo.svg';
+import { Trans } from "@lingui/macro"
 import { Counter } from './features/counter/Counter';
 import './App.css';
 
 function App() {
+  const item = 1;
+  const total = 5;
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <Counter />
+        <p>
+          <Trans>Displaying {item} of {total}</Trans>
+        </p>
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>

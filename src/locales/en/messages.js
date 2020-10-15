@@ -1,0 +1,1 @@
+/*eslint-disable*/module.exports={messages:{"Displaying {item} of {total}":["Displaying ",["item"]," of ",["total"]]}};
